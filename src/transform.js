@@ -1,9 +1,6 @@
 
 function minAgeMaxAge(board, minAge, maxAge) {
-  return board.filter(a => a.age < maxAge && a.age > minAge).reduce(function (acc, cur, i) {
-    acc[i] = cur;
-    return acc;
-  }, [])
+  return board.filter(a => a.age < maxAge && a.age > minAge)
 }
 
 function groupAdultsByAgeRange(board) {
@@ -22,7 +19,4 @@ function groupAdultsByAgeRange(board) {
 }
 
 module.exports = { groupAdultsByAgeRange }
-
-
-
 
