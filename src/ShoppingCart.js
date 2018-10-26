@@ -1,4 +1,3 @@
-
 class Cart {
     constructor() {
         this.array = []
@@ -23,6 +22,5 @@ class Cart {
         }, 0)
     }
 }
-
 
 module.exports = Cart
